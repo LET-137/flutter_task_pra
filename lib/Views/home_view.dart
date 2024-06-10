@@ -12,7 +12,6 @@ class HomeViewState extends State<HomeView> {
   final GlobalKey<ItemListState> itemListKey = GlobalKey<ItemListState>();
 
   @override
-  @override
   void dispose() {
     _controller.dispose();
     super.dispose();
